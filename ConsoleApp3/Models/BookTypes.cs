@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace HW.Models;
 
-public class BookTypes : Entity
+public class BookType : Entity
 {
-    public string Type { get; set; }
+    public string BookType { get; set; }
     public ICollection<Book> Books { get; set; }
 }
