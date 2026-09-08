@@ -10,5 +10,5 @@ namespace HW.Models;
 public class BookTypes : Entity
 {
     public string Type { get; set; }
-    public ICollection<Books> Books { get; set; }
+    public ICollection<Book> Books { get; set; }
 }
