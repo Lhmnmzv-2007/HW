@@ -13,7 +13,7 @@ public class Books : Entity
     public int PageCount { get; set; }
     public int AuthorId { get; set; }
     public int BookTypeId { get; set; }
-    public Authors Author { get; set; }
-    public BookTypes Type { get; set; }
-    public ICollection<Students> Students { get; set; }
+    public Author Author { get; set; }
+    public BookType BookType { get; set; }
+    public ICollection<Student> Students { get; set; }
 }
