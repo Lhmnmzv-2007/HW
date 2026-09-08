@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HW.Models;
 
-public class Students : Entity
+public class Student : Entity
 {
     public string Firstname { get; set; }
     public string Lastname { get; set; }
