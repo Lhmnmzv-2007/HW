@@ -16,5 +16,5 @@ public class Students : Entity
     public Gender Gender { get; set; }
     public DateTime Birthday { get; set; }
     public string PhoneNumber { get; set; }
-    public ICollection<Books> Books { get; set; }
+    public ICollection<Book> Books { get; set; }
 }
